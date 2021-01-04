@@ -13,11 +13,11 @@ Using Rclone with 21vianet mod and Aria2, even UNRAR online flexibly? Try this [
 
 **This APP is no longer updated.**<br>
 
-1. Rclone with 21vianet patch and Gclone mod. 融合了世纪互联补丁和 Gclone 模组的 Rclone。
-2. Support mount double cloud drive. 支持双网盘挂载同步。
-3. Improve performance of the built-in Aria2c and Rclone. 大幅提升内置 Aria2c 和 Rclone 性能。
-4. Unpack(Beta) ZIP/RAR/7Z with password or sub-volume. 解压分卷或带密码的压缩包（测试）。
-5. Fix some little issues in fork source. 修复项目源的一些其他小问题。
+1. Rclone with 21vianet patch and Gclone mod. 
+2. Support mount double cloud drive.
+3. Improve performance of the built-in Aria2c and Rclone. 
+4. Unpack(Beta) ZIP/RAR/7Z with password or sub-volume. 
+5. Fix some little issues in fork source. 
 
 ## Deploy by Docker (Recommend)
 
@@ -30,7 +30,7 @@ FAQ: [Do I have to use Docker?](#do-i-have-to-use-docker)
 * [git](https://git-scm.com/)
 * Ability to use terminal
 
-### Steps 步骤
+### Steps
 
 1. Run `heroku login` to login, then `heroku container:login` too.
 2. Clone this repository and enter it. (PS: Please run `git config --global core.autocrlf false` before `git clone` if you are using Windows.)
